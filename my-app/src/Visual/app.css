@@ -1,0 +1,100 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #eee4e4;
+}
+h1 {
+    text-align: center;
+}
+
+.formulario select {
+    border-radius: 0.2rem;
+    border: none;
+    background-color: #868383;
+     color: white;
+     font-size: 16px;
+     appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: 0.3s;
+    cursor: pointer;
+    height: 1.2rem;
+    
+}
+select:hover {
+    background-color: rgb(236, 159, 57);
+}
+
+.formulario {
+padding: 1rem;
+text-align: center;
+text-align: center;
+}
+.formulario option {
+    text-align: center;
+}
+.formulario input {
+border-radius: 0.5rem;
+width: 30rem;
+height: 2rem;
+margin-right: 1rem;
+border-width: 0.3rem;
+border-color: black;
+
+}
+.formulario ::placeholder{
+text-align: center;
+font-weight: bold;
+}
+
+.formulario button {
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(7, 219, 7);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.formulario button:hover {
+    background-color: rgba(1, 250, 1, 0.774);
+}
+.Tarefa {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+   gap: 4rem;
+   border: solid;
+   border-radius: 0.9rem;
+   border-width: 0.3rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   
+}
+
+.div button {
+    background-color: rgb(255, 0, 0);
+    height: 2.5rem;
+    width: 5rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+.div2 button:hover {
+    background-color: rgb(255, 34, 27);
+}
+.div input {
+width: 2.2rem;
+border: none;    
+}
+
+.div2 {
+display: flex;
+
+}
+
