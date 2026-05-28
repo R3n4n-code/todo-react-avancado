@@ -4,48 +4,63 @@ body {
     padding: 0;
     background-color: #eee4e4;
 }
+
 h1 {
     text-align: center;
+}
+
+p {
+    font-weight: bold;
+    font-size: larger;
 }
 
 .formulario select {
     border-radius: 0.2rem;
     border: none;
-    background-color: #868383;
-     color: white;
-     font-size: 16px;
-     appearance: none;
+    background-color: #3a1515;
+    color: white;
+    font-size: 16px;
+    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     transition: 0.3s;
     cursor: pointer;
     height: 1.2rem;
-    
+    box-shadow:
+        0px 4px 10px gray;
+
 }
+
 select:hover {
     background-color: rgb(236, 159, 57);
 }
 
 .formulario {
-padding: 1rem;
-text-align: center;
-text-align: center;
+    padding: 1rem;
+    text-align: center;
+    text-align: center;
 }
+
 .formulario option {
     text-align: center;
 }
-.formulario input {
-border-radius: 0.5rem;
-width: 30rem;
-height: 2rem;
-margin-right: 1rem;
-border-width: 0.3rem;
-border-color: black;
 
+.formulario input {
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    border: none;
+    width: 100%;
+    max-width: 30rem;
+    height: 2rem;
 }
-.formulario ::placeholder{
-text-align: center;
-font-weight: bold;
+
+.formulario input:hover {
+    border: solid;
+}
+
+.formulario ::placeholder {
+    text-align: center;
+    font-weight: bold;
 }
 
 .formulario button {
@@ -55,9 +70,11 @@ font-weight: bold;
     border-radius: 0.5rem;
     cursor: pointer;
 }
+
 .formulario button:hover {
     background-color: rgba(1, 250, 1, 0.774);
 }
+
 .Tarefa {
     display: flex;
     flex-direction: column;
@@ -69,32 +86,66 @@ font-weight: bold;
 .div {
     display: flex;
     justify-content: space-between;
-   gap: 4rem;
-   border: solid;
-   border-radius: 0.9rem;
-   border-width: 0.3rem;
-   padding-left: 3rem;
-   padding-right: 3rem;
-   
+    gap: 4rem;
+    border: solid;
+    border-radius: 0.9rem;
+    border-width: 0.3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    box-shadow:
+        4px 4px 10px gray;
+    width: 100%;
+    max-width: 30rem;
+
 }
 
-.div button {
+.div2 button {
     background-color: rgb(255, 0, 0);
     height: 2.5rem;
     width: 5rem;
     margin-top: 1rem;
     border-radius: 0.5rem;
+    text-align: center;
 }
+
 .div2 button:hover {
     background-color: rgb(255, 34, 27);
 }
+
 .div input {
-width: 2.2rem;
-border: none;    
+    width: 2.2rem;
+    border: none;
 }
 
 .div2 {
-display: flex;
+    display: flex;
 
 }
 
+@media (max-width: 425px) {
+    .div {
+        gap: 1rem;
+        width: 100%;
+        max-width: 17rem;
+        padding: 1rem;
+
+    }
+
+    .div button {
+        background-color: rgb(255, 0, 0);
+        height: 1, 5rem;
+        width: 3.3rem;
+
+    }
+
+    .div input {
+        width: 1rem;
+        border: none;
+    }
+
+    .div2 {
+        display: flex;
+
+
+    }
+}

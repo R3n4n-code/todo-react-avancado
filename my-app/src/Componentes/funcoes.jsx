@@ -1,7 +1,4 @@
-import { useState, useEffect } from 'react'
-import useTudo from './hookpersonalizado'
-import "../App.jsx"
-const API = ("https://crudcrud.com/api/2d7bf5d3c7fc4cef96b3f0362c301b54/tarefas")
+const API = ("https://crudcrud.com/api/0df781b77bcc4a77a3d7d03e6b94b406/tarefas")
 
 export async function Cria_Tarefa(valor) {
     
