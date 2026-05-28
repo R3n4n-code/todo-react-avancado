@@ -2,7 +2,7 @@
 
 Este modelo fornece uma configuração mínima para fazer o React funcionar no Vite com HMR e algumas outras funcionalidades.
 
-foram utilizadas hooks useState, useEffect, useMemo e uso de um hook personalizado alem de props
+foram utilizadas hooks useState, useEffect, useMemo, useContext e uso de um hook personalizado alem de props
  
 Atualmente, dois plugins oficiais estão disponíveis:
 
